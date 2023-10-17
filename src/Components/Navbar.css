@@ -1,0 +1,126 @@
+.logo {
+    max-width: 141px;
+}
+
+.nav-text {
+    color: #02073E;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 206.25% */
+}
+
+
+.btn {
+    padding: 9px;
+    text-align: center;
+    background-color: #FCF2E8;
+    color: #EF9E48;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.16px;
+}
+
+
+.container h1 {
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 580px;
+    height: 201px;
+    margin-bottom: 20px;
+    color: #02073E;
+    font-family: DM Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    /* 117.647% */
+    letter-spacing: -2px;
+}
+
+
+
+.thumbnail {
+    width: 345px;
+    height: 380px;
+    border-radius: 5px;
+    border: 2px solid #FFDC6B;
+    background: rgba(226, 226, 226, 0.00);
+}
+
+.para {
+    width: 500px;
+    height: 116px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: #02073E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 233.333% */
+}
+
+.search {
+    /* align-items: center; */
+    color: #02073E;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 250% */
+    border-radius: 8px;
+    border-color: #02073E;
+    background: #FFF;
+    padding-left: 20px;
+    padding: 15 15;
+    margin-left: 20px;
+    width: 400px;
+    height: 50px;
+    box-shadow: 0px 10px 50px 0px rgba(48, 98, 144, 0.08);
+}
+
+
+#banner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#banner::before {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 70%;
+    z-index: 0;
+    height: 100%;
+    background: url(http://localhost:3000/static/media/BG.6f32e71862912ce3b9d7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-bottom-right-radius: 60px;
+}
+
+#header {
+    width: 100%;
+    position: absolute;
+}
+
+#banner .container {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
