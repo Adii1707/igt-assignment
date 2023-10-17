@@ -79,3 +79,25 @@
     line-height: 26px;
     /* 162.5% */
 }
+
+
+.grid{
+    justify-content: center;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 25px 100px 0px rgba(69, 88, 157, 0.08);
+/* width: 300px; */
+height: 320px;
+flex-shrink: 0;
+}
+
+.text1{
+    color: #FF753A;
+text-align: center;
+font-family: DM Sans;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 76.389% */
+letter-spacing: -1.5px;
+}
